@@ -15,8 +15,8 @@
 <input type="submit" value="envoyer" />
 </form></p>
 <?php 
-echo "nom prénom : ".$_POST['user_name'];
-echo "nom prénom : ".$_POST['user_mail'];
-echo "nom prénom : ".$_POST['user_message'];
+echo "Nom prénom : ".$_POST['user_name'];
+echo "Mail : ".$_POST['user_mail'];
+echo "Message : ".$_POST['user_message'];
 ?> 
 </body>
